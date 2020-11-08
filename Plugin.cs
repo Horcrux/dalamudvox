@@ -258,7 +258,7 @@ namespace DalamudPluginProjectTemplate
                         }
                         else if (e.Result.Text.StartsWith("help me"))
                         {
-                            synthesizer.Speak($"Hello {firstName}, thank you kindly for installing this plugin. Welcome to this virtual tour, which we will experience together! I am Dalamud, your virtual, intelligent FFXIV assistant, developed for you by our best R&D personnel. You can access me any time you are logged in by saying hey dalamud. Currently, you can say teleport to to teleport to any location in-game. You can also open the plugin installer and the item search just with your vocal chords. Isn't that amazing? Now go and have fun!");
+                            synthesizer.Speak($"Hello {firstName}, thank you kindly for installing this plugin. Welcome to this virtual tour, which we will experience together! I am Dalamud, your virtual, intelligent FFXIV assistant, developed for you by our best R&D personnel. You can access me any time you are logged in by saying hey dalamud. Currently, you can say teleport to teleport to any location in-game. You can also open the plugin installer and the item search just with your vocal chords. Isn't that amazing? Now go and have fun!");
 
                             Thread.Sleep(100);
 
